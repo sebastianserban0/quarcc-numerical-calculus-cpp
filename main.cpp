@@ -8,7 +8,7 @@ double square(double x) {
 }
 
 double forward_difference(double x, double h) {
-    // TODO: Replace this body with some forward-difference calculation.
+    
    return (square(x + h) - square(x)) / h;
 }
 
