@@ -1,5 +1,5 @@
 # Numerical Calculus in C++ : Week 1; Forward difference
-### Note: This project uses Generative AI as a means to verify and correct my work, and for making the process of following along easier to understand, because I may or may not have a unique way of formatting Markdowns
+### Note: This project uses Generative AI as a means for making the process of following along easier to understand, because I may or may not have a unique way of formatting Markdowns
 This experiment measures how step size affects the forward-difference estimate of $f'(2)$ for $f(x)=x^2$. The exact derivative is 4. 
 
 ## Build and run
