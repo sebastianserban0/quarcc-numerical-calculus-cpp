@@ -22,11 +22,6 @@ int main() {
 
     for (double h : step_sizes) {
         const double estimate = forward_difference(x, h);
-        if (std::isnan(estimate)) {
-            std::cerr << "TODO: Implement forward_difference in main.cpp, then rebuild.\n";
-            return 1;
-        }
-
         const double absolute_error = std::abs(estimate - exact_derivative);
         std::cout << h << ',' << estimate << ',' << absolute_error << '\n';
     }
